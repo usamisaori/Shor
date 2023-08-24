@@ -48,8 +48,7 @@ text-align: center;">
 
 ### 1.2 关于项目
 
-为了便于理解整个的流程，此处给出项目的基本结构，见下图 Fig. 3。实现基于 python(3.7.0)。详细的步骤见后文。后文主要分享基本的思路，所给的程序未必能直接运行，为方便大家参考，对应的源码已开源：https://github.com/ShepherdLee519/Shor-21 （此版本非比赛提交版本，仅供参考）。
-
+为了便于理解整个的流程，此处给出项目的基本结构，见下图 Fig. 3。实现基于 python(3.7.0)。
 <br />
 <div style="margin: 0 auto; width: 990px;
 text-align: center;">
@@ -396,7 +395,7 @@ text-align: center;">
 
 ## **源码说明**
 
-所给的源码在 python == 3.7.0 环境下可以运行，仅提供了 `a=4` 与 `a=11` 情况的实现，也没有运用上述 Toffoli 近似方案，仅作为简单的参考。感兴趣的朋友可以把参照前面提到的论文把剩下 `a` 对应的线路补全。下面给出了本组实现的结果（未使用 Toffoli 近似时的结果）：
+所给的源码在 python == 3.7.0 环境下可以运行。下面给出了本组实现的结果（未使用 Toffoli 近似时的结果）：
 
 <div style="margin: 0 auto; width: 1100px;
 text-align: center;">
@@ -405,11 +404,7 @@ text-align: center;">
 </div><br /><br />
 
 
-<div style="position: absolute; right: 0; font-size: 130%;">
-<p>
-By kangkang
-</p>
-</div>
+
 
 
 [<sup>1</sup>]:https://arxiv.org/pdf/1310.6446v2.pdf
@@ -420,19 +415,3 @@ By kangkang
 [<sup>6</sup>]:https://arxiv.org/pdf/2103.13855.pdf
 [<sup>7</sup>]:https://www.nature.com/articles/nphoton.2012.259
 [<sup>8</sup>]:https://arxiv.org/pdf/1508.03273.pdf
-
-<style>
-    p, h3, ol, ul {
-    font-family: "Microsoft YaHei" !important;
-    }
-
-    p, h1, h2, h3{
-        font-size: 135% !important;
-        line-height: 165% !important;
-    }
-
-    ul, ol {
-        font-size: 1.1rem !important;
-        line-height: 2rem !important;
-    }
-</style>
